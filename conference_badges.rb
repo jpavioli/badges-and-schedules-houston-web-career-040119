@@ -20,7 +20,7 @@ end
 
 def printer(speakers)
   print_me = []
-  print_me << batch_badge_creator(speakers)
-  print_me << assign_rooms(speakers)
+  print_me.push(batch_badge_creator(speakers))
+  print_me.push(assign_rooms(speakers))
   print_me
 end
