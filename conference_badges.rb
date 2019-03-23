@@ -20,7 +20,7 @@ end
 
 def printer(speakers)
   for i in 0..(speakers.length-1) do
-    puts batch_badge_creator(speakers[i])
+    puts badge_maker(speakers[i])
   end
     for i in 0..(speakers.length-1) do
     puts assign_rooms(speakers[i])
