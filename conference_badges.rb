@@ -13,7 +13,7 @@ end
 def assign_rooms(speakers) 
   room_assignment = []
   for i in 0..(speakers.length-1) do 
-    room_assignment << "Hello, #{speakers[i]}! You will be assigned to room #{i+1}!"
+    room_assignment << "Hello, #{speakers[i]}! You'll be assigned to room #{i+1}!"
   end
   room_assignment
 end 
