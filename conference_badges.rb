@@ -4,7 +4,7 @@ end
 
 def batch_badge_creator(name_list)
   for name in 0..(name_list.length-1)
-    badge_maker(name)
+    badge_maker(name_list[name])
   end
 end
   
