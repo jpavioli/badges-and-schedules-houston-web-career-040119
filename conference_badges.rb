@@ -18,9 +18,9 @@ def assign_rooms(speakers)
   room_assignment
 end 
 
-def printer(guests,speakers)
+def printer(speakers)
   print_me = []
-  print_me.push(batch_badge_creator(guests))
-  print_me.push(assign_rooms(speakers))
+  print_me << batch_badge_creator(speakers)
+  print_me << assign_rooms(speakers)
   print_me
 end
