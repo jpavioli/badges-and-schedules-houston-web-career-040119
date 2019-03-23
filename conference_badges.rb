@@ -19,10 +19,6 @@ def assign_rooms(speakers)
 end 
 
 def printer(speakers)
-  for i in 0..(speakers.length-1) do
-    puts badge_maker(speakers[i])
-  end
-    for i in 0..(speakers.length-1) do
-    puts assign_rooms(speakers[i])
-  end
+  puts badge_maker(speakers)
+  puts assign_rooms(speakers)
 end
