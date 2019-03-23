@@ -9,4 +9,11 @@ def batch_badge_creator(name_list)
   end
   badges
 end
-  
+
+def assign_rooms(speakers) 
+  speaker_rooms = []
+  for i in 0..(speakers.length-1) do 
+    speaker_rooms << "Hello, #{speakers[i]}! You will be assigned to room #{i+1}!"
+  end
+  speaker_rooms
+end 
