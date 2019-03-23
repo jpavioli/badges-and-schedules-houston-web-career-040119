@@ -3,7 +3,7 @@ def badge_maker(name) #should return a formatted badge
 end 
 
 def batch_badge_creator(name_list)
-  for name in 0..(name_list.length-1)
+  for name in 0..(name_list.length-1) do 
     badge_maker(name_list[name])
   end
 end
