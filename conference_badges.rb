@@ -4,10 +4,10 @@ end
 
 def batch_badge_creator(name_list)
   #badges = []
-  name_list.each (name_list.length-1) do 
-    badges << badge_maker(name_list[i])
+  name_list.each do |name| 
+    puts badge_maker(name)
   end
-  badges
+  #badges
 end
 
 def assign_rooms(speakers) 
